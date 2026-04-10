@@ -1,7 +1,7 @@
 ---
 title: Simple Guides for Mizuki
 published: 2024-04-01
-description: "How to use this blog template."
+description: "如何使用这个博客模板."
 image: "./cover.webp"
 tags: ["Mizuki", "Blogging", "Customization"]
 category: Guides
@@ -10,9 +10,8 @@ draft: false
 
 
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
-
-## Front-matter of Posts
+这个博客模板基于  [Astro](https://astro.build/).构建。本指南中未提及的内容，你可以在  [Astro Docs](https://docs.astro.build/).中找到答案。
+## 文章头部配置
 
 ```yaml
 ---
@@ -29,26 +28,25 @@ draft: false
 
 
 
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `pinned`      | Whether this post is pinned to the top of the post list.                                                                                                                                                   |
-| `priority`    | The priority of the pinned post. Smaller value means higher priority (0, 1, 2...).                                                                                                                          |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `licenseName` | The license name for the post content.                                                                                                                                                                      |
-| `author`      | The author of the post.                                                                                                                                                                                     |
-| `sourceLink`  | The source link or reference for the post content.                                                                                                                                                          |
-| `draft`       | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
-
-## Where to Place the Post Files
-
+| 属性          | 说明 |
+| :------------ | :------------------------------------------------------------------------------------------------- |
+| `title`       | 文章标题 |
+| `published`   | 文章发布日期 |
+| `pinned`      | 是否将该文章置顶在文章列表顶部 |
+| `priority`    | 置顶文章的优先级，数值越小优先级越高（0、1、2……） |
+| `description` | 文章简短描述，会在首页展示 |
+| `image`       | 文章封面图片路径<br/>1. 以 `http://` 或 `https://` 开头：使用网络图片<br/>2. 以 `/` 开头：对应 `public` 目录下的图片<br/>3. 无前缀：相对于当前 Markdown 文件的相对路径 |
+| `tags`        | 文章标签 |
+| `category`    | 文章分类 |
+| `licenseName` | 文章内容的开源协议名称 |
+| `author`      | 文章作者 |
+| `sourceLink`  | 文章内容的原文链接或参考链接 |
+| `draft`       | 是否为草稿，草稿状态的文章不会在页面中显示 |
+## 文章文件存放位置
 
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+文章文件需放在 src/content/posts/ 目录下。你也可以创建子目录，更好地组织文章和相关资源文件。
+
 
 ```
 src/content/posts/
