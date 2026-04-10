@@ -2,7 +2,7 @@
 title: Markdown Extended Features
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Mizuki'
+description: '阅读更多关于降价的功能在Mizuki'
 image: ''
 tags: [Demo, Example, Markdown, Mizuki]
 category: 'Examples'
@@ -10,11 +10,11 @@ draft: false
 ---
 
 ## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+您可以添加链接到GitHub存储库的动态卡，在页面加载时，存储库信息从GitHub API中提取。
 
 ::github{repo="LyraVoid/Mizuki"}
 
-Create a GitHub repository card with the code `::github{repo="LyraVoid/Mizuki"}`.
+用代码创建一个GitHub存储库卡 `::github{repo="LyraVoid/Mizuki"}`.
 
 ```markdown
 ::github{repo="LyraVoid/Mizuki"}
@@ -22,27 +22,32 @@ Create a GitHub repository card with the code `::github{repo="LyraVoid/Mizuki"}`
 
 ## Admonitions
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+支持以下类型的警告: `note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
-:::
+
+突出显示用户应该考虑的信息.
+
 
 :::tip
-Optional information to help a user be more successful.
-:::
+
+可选信息，以帮助用户更成功权衡。
+
 
 :::important
-Crucial information necessary for users to succeed.
-:::
+
+用户所需的关键信息。
+
 
 :::warning
-Critical content demanding immediate user attention due to potential risks.
-:::
+
+由于一些潜在风险，需要用户立即关注的关键内容。
+
 
 :::caution
-Negative potential consequences of an action.
-:::
+
+注意到某个行为的负面潜在后果。
+
 
 ### Basic Syntax
 
@@ -58,7 +63,7 @@ Optional information to help a user be more successful.
 
 ### Custom Titles
 
-The title of the admonition can be customized.
+警告的标题可以自定义。
 
 :::note[MY CUSTOM TITLE]
 This is a note with a custom title.
@@ -85,9 +90,9 @@ This is a note with a custom title.
 
 ### Spoiler
 
-You can add spoilers to your text. The text also supports **Markdown** syntax.
+你可以在文本中添加剧透。文本还支持**Markdown**语法。
 
-The content :spoiler[is hidden **ayyy**]!
+语法 :spoiler[is hidden **ayyy**]!
 
 ```markdown
 The content :spoiler[is hidden **ayyy**]!
