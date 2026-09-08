@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
 	title: "ACG避风港",
 	subtitle: "游戏资讯推荐、实况剪辑素材与攻略分享的 ACG 避风港",
 	keywords: ["ACG", "游戏推荐", "游戏攻略", "剪辑素材", "实况剪辑", "游戏资源"],
-	siteURL: "https://duzoneacgworld.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://du-19.top/", // 站点URL，以斜杠结尾
 	siteStartDate: "2026-04-09", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
 		projects: true, // 项目页面开关
 		skills: true, // 技能页面开关
 		timeline: true, // 时间线页面开关
-		albums: true, // 相册页面开关
+		abums: true, // 相册页面开关
 		devices: true, // 设备页面开关
 	},
 
@@ -420,7 +420,7 @@ export const permalinkConfig: PermalinkConfig = {
 	 * - %year% : 4位年份 (2024)
 	 * - %monthnum% : 2位月份 (01-12)
 	 * - %day% : 2位日期 (01-31)
-	 * - %hour% : 2位小时 (00-59)
+	 * - %hour% : 2位小时 (00-23)
 	 * - %minute% : 2位分钟 (00-59)
 	 * - %second% : 2位秒数 (00-59)
 	 * - %post_id% : 文章序号（按发布时间升序排列，最早的文章为1）
