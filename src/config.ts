@@ -476,11 +476,12 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "本站大部分下载资源收集于网络，只做学习和交流使用，版权归原作者所有。本站发布的内容若侵犯到您的权益，请联系1999djg@sina.com删除，", // 公告内容
+	content:
+		"本站发布的素材、模板与图文均为自制或已获授权内容，仅供学习交流，请勿商用或二次传播。如您认为本站内容侵犯了您的权益，请邮件联系 admin@du-19.top，我们核实后会第一时间处理。", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
+		text: "关于与联系", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},
@@ -499,7 +500,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 };
 
 export const footerConfig: FooterConfig = {
-	enable: false, // 是否启用Footer HTML注入功能
+	enable: true, // 是否启用Footer HTML注入功能
 	customHtml: "", // HTML格式的自定义页脚信息，例如备案号等，默认留空
 	// 也可以直接编辑 FooterConfig.html 文件来添加备案号等自定义内容
 	// 注意：若 customHtml 不为空，则使用 customHtml 中的内容；若 customHtml 留空，则使用 FooterConfig.html 文件中的内容
