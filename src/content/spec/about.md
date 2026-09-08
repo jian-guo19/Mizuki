@@ -1,49 +1,22 @@
+## 关于 ACG避风港
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+**ACG避风港**（du-19.top）是一个面向游戏内容创作者的交流小站，围绕 **游戏资讯推荐、实况剪辑素材与创作攻略** 三个方向持续更新。
 
-::github{repo="LyraVoid/Mizuki"}
+### 这里有什么
 
-## 🌟 Theme Features
+- **游戏资讯与推荐**：新游、小众佳作与入坑指南，帮你更快找到想玩、想做的内容题材
+- **剪辑素材与模板**：OBS 场景、字幕样式工程、封面排版、导出参数预设等**版权清晰**的素材包
+- **创作攻略**：从录制、AI 辅助剪辑到多平台分发的全流程教程与经验
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+### 关于作者
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+我是**坚果杜**，一名 AI 视频剪辑从业者。这个站既是我的创作素材仓库，也是我把踩过的坑整理成攻略的地方。站内大部分素材都是自制或已获授权的，可以放心参考使用。
 
+### 联系方式
 
+- **邮箱**：admin@du-19.top（来信将转发至站长邮箱，一般 1~2 个工作日内回复）
+- **合作 / 投稿**：邮件标题注明「合作」或「投稿」即可
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+### 版权与免责
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
-
----
-
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+本站发布的素材、模板与图文均为**自制或已获授权**内容，仅供学习交流，请勿商用或二次传播。如您认为本站任何内容侵犯了您的权益，请通过上方邮箱与我们联系，我们核实后会第一时间处理。
