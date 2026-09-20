@@ -369,6 +369,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
+	favicon: undefined,
 	avatar: "assets/images/Wall-nut.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "坚果杜",
 	bio: "世界很大，你必须去看看",
@@ -494,7 +495,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "2253579823", // 歌单ID（站长网易云「这一切是有预谋的喜欢的音乐」，2026-09-20 启用；VIP曲目待按报告清理）
+	id: "18399663691", // 歌单ID（站长网易云「ACG避风港·站内播放（免费曲目）」，2026-09-20 启用：已剔除全部 VIP 曲目，149 首均为可完整播放版本）
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
 };
