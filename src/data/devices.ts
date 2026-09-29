@@ -18,7 +18,7 @@ export const devicesData: DeviceCategory = {
 		{
 			name: "Redmi K70 Ultra",
 			image: "/images/device/k70ultra.webp",
-			specs: "冰璃蓝 / 天玑 9300+ / 5500mAh",
+			specs: "冰璃蓝 / 16G + 512G",
 			description:
 				"Dimensity 9300+ flagship with 6.67-inch 1.5K 144Hz OLED, IP68 and 120W fast charging.",
 			link: "https://item.mi.com/product/20153.html",
@@ -27,8 +27,8 @@ export const devicesData: DeviceCategory = {
 	Laptop: [
 		{
 			name: "ASUS Zenbook 14 UX3405CA",
-			image: "/images/device/zenbook14-blue.webp",
-			specs: "夜空蓝 / 酷睿 Ultra / 2.8K 120Hz OLED",
+			image: "/images/device/zenbook14-silver.webp",
+			specs: "冰川银 / 16G + 512G",
 			description:
 				"1.2kg ultraportable with Lumina OLED display, my daily driver for work, coding and AI video editing.",
 			link: "https://www.asus.com.cn/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/",
