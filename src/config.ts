@@ -47,7 +47,7 @@ export const siteConfig: SiteConfig = {
 		projects: true, // 项目页面开关
 		skills: true, // 技能页面开关
 		timeline: true, // 时间线页面开关
-		abums: true, // 相册页面开关
+		albums: true, // 相册页面开关
 		devices: true, // 设备页面开关
 	},
 
