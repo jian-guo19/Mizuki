@@ -14,14 +14,24 @@ export type DeviceCategory = Record<string, Device[]> & {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	Xiaomi: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.webp",
-			specs: "Gray / 16G + 1TB",
+			name: "Redmi K70 Ultra",
+			image: "/images/device/k70ultra.webp",
+			specs: "冰璃蓝 / 天玑 9300+ / 5500mAh",
 			description:
-				"Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+				"Dimensity 9300+ flagship with 6.67-inch 1.5K 144Hz OLED, IP68 and 120W fast charging.",
+			link: "https://item.mi.com/product/20153.html",
+		},
+	],
+	Laptop: [
+		{
+			name: "ASUS Zenbook 14 UX3405CA",
+			image: "/images/device/zenbook14-blue.webp",
+			specs: "夜空蓝 / 酷睿 Ultra / 2.8K 120Hz OLED",
+			description:
+				"1.2kg ultraportable with Lumina OLED display, my daily driver for work, coding and AI video editing.",
+			link: "https://www.asus.com.cn/laptops/for-home/zenbook/asus-zenbook-14-oled-ux3405/",
 		},
 	],
 	Router: [
