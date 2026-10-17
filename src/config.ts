@@ -493,8 +493,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	floatingEntryMode: "fab", // 悬浮入口模式："default" 为独立悬浮播放器，"fab" 为集成到通用 FAB 组
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
-		"https://meting.mysqil.com/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
-	id: "18399663691", // 歌单ID（站长网易云「ACG避风港·站内播放（免费曲目）」，2026-09-20 启用：已剔除全部 VIP 曲目，149 首均为可完整播放版本）
+		"https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址（2026-10-17 更换：原 meting.mysqil.com 域名已废弃、DNS 无法解析，导致歌单列表为空）
+	id: "18399663691", // 歌单ID（站长网易云「ACG避风港·站内播放（免费曲目）」，2026-09-20 启用：已剔除全部 VIP 曲目。注：歌单原为 149 首，网易云后续下架部分版权曲目，API 现实际返回 115 首可播放）
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
 };
