@@ -27,7 +27,7 @@ comment: true
 
 | | 端点 | Sec-MS-GEC 版本 |
 | :--- | :--- | :--- |
-| Node `msedge-tts@2.0.4`（插件依赖） | `wss://speech.platform.bing.com/...` | `1-143.0.3650.96` |
+| Node `msedge-tts` 2.0.4（插件依赖） | `wss://speech.platform.bing.com/...` | `1-143.0.3650.96` |
 | Python `edge-tts` 7.3.1 | 同上 | `2-143.0.3650.75` |
 
 **微软把鉴权从 GEC v1 升到了 v2，v1 直接被拒。** 插件依赖的 `msedge-tts` 停更了，没跟上。
