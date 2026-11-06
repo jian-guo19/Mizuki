@@ -272,11 +272,6 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
-		{
-			name: "工具",
-			url: "/tools/",
-			icon: "material-symbols:handyman",
-		},
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "Links",
