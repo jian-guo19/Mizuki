@@ -272,6 +272,12 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
 		LinkPreset.Archive,
+		{
+			name: "游戏",
+			url: "https://game.du-19.top/",
+			external: true,
+			icon: "material-symbols:sports-esports",
+		},
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "Links",
