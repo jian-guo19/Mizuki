@@ -278,6 +278,11 @@ export const navBarConfig: NavBarConfig = {
 			external: true,
 			icon: "material-symbols:sports-esports",
 		},
+		{
+			name: "推荐",
+			url: "/recommend/",
+			icon: "material-symbols:recommend",
+		},
 		// 支持自定义导航栏链接，支持多级菜单
 		{
 			name: "Links",
